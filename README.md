@@ -1,2 +1,2 @@
 # Deep-Learning-Based-Downscaling
-This notebook houses codes that performs deep-learning based downscaling of GCM precipitation to APHRODITE's resolution.
+In this study, EC-Earth3 precipitation is downscaled to APHRODITE's resolution (0.25&deg;) using dl4ds architecture (Res-NET). On top of EC-Earth's precipitation, specific humidity, zonal wind, meridonal wind (at 4 different zeo-potential heigth), sea surface pressure level, air temperature, etc. are taken into account as predictors. Alongside, grid-based liner bias correction is also carried out.
